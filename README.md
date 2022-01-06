@@ -12,3 +12,5 @@ This is because **the entire thing is running on one heroku dyno** and with one 
 Because of this concurrent users can slow down the user experience drastically (won't crash though).
 
 In the future I hope to move the majority of the code into a seperate worker process to help with concurrency.
+
+I try to update this repo as much as possible, it is slightly different from the one deployed in production to heroku because sensitive stuff have been gitignored out.
