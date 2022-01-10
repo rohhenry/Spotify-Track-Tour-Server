@@ -14,3 +14,5 @@ Because of this concurrent users can slow down the user experience drastically (
 In the future I hope to move the majority of the code into a seperate worker process to help with concurrency.
 
 I try to update this repo as much as possible, it is slightly different from the one deployed in production to heroku because sensitive stuff have been gitignored out.
+
+The **dataset is not included** with this repo but you can find it here: https://www.kaggle.com/lehaknarnauli/spotify-datasets
